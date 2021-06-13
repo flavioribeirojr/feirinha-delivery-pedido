@@ -1,4 +1,4 @@
-import { OrderSteps } from "../../order-steps";
+import { OrderSteps } from "../../metadata/order-steps";
 import { OrderHeader } from "../order-header/order-header";
 import { PaymentMethods as PaymentMethodOptions, CardTypes } from './payment-methods.constants';
 import styles from './payment-methods.module.css';

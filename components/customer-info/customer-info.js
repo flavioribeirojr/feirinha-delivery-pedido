@@ -1,14 +1,16 @@
 import { Formik } from 'formik';
 import { OrderHeader } from '../order-header/order-header';
-import formStyles from '../../../styles/form.module.css';
+import formStyles from '../../styles/form.module.css';
 import styles from './customer-info.module.css';
 import { renderInputClassNameErrors, ValidationErrorMessage } from '../../helpers/validation-render';
 import { CustomerInfoValidator } from './customer-info.validation';
 import InputMask from 'react-input-mask';
-import { OrderSteps } from '../../order-steps';
+import { OrderSteps } from '../../metadata/order-steps';
 import { useEffect, useState } from 'react';
+import { createCustomerInfoStorage } from '../../helpers/customer-info-storage';
 
 export function CustomerInfo({ customerInfo, setCustomerInfo, setCurrentStep }) {
+    const customerInfoStorage = createCustomerInfoStorage();
     const [ initialValues, setInitialValues ] = useState({
         name: '',
         phone: '',
@@ -28,6 +30,8 @@ export function CustomerInfo({ customerInfo, setCustomerInfo, setCurrentStep }) 
 
     function handleSubmit(values) {
         setCustomerInfo(values);
+        customerInfoStorage.updateCache(values);
+
         setCurrentStep(OrderSteps.paymentMethod);
     }
 

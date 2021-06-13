@@ -1,4 +1,4 @@
-import { PaymentMethodsLabels, CardTypesLabels, PaymentMethods } from './components/payment-methods/payment-methods.constants';
+import { PaymentMethodsLabels, CardTypesLabels, PaymentMethods } from '../components/payment-methods/payment-methods.constants';
 
 export function formatOrder({
     customerInfo,

@@ -1,7 +1,7 @@
 import { OrderHeader } from '../order-header/order-header'
 import styles from './items-selection.module.css'
-import { items } from '../../data/items.json'
-import { OrderSteps } from '../../order-steps';
+import { items } from '../../data/items'
+import { OrderSteps } from '../../metadata/order-steps';
 import { useEffect } from 'react';
 import { OrderResume } from '../order-resume/order-resume';
 

@@ -1,8 +1,8 @@
 import { faMapMarkedAlt, faPhoneSquareAlt, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { calculateItemPrice, formatPrice } from '../../helpers/item-price-calculator';
-import { formatOrder } from '../../order-message-formatter';
-import { OrderSteps } from '../../order-steps';
+import { formatOrder } from '../../metadata/order-message-formatter';
+import { OrderSteps } from '../../metadata/order-steps';
 import { OrderHeader } from "../order-header/order-header";
 import { OrderResume } from '../order-resume/order-resume';
 import { CardTypesImages, PaymentMethods, PaymentMethodsLabels } from '../payment-methods/payment-methods.constants';

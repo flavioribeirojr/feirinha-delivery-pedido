@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
-import { Confirmation } from './components/confirmation/confirmation';
-import { CustomerInfo } from './components/customer-info/customer-info';
-import { ItemsSelection } from './components/items-selection/items-selection';
-import { PaymentMethods } from './components/payment-methods/payment-methods';
-import { Welcome } from './components/welcome/welcome'
-import { OrderSteps } from './order-steps';
+import { Confirmation } from '../components/confirmation/confirmation';
+import { CustomerInfo } from '../components/customer-info/customer-info';
+import { ItemsSelection } from '../components/items-selection/items-selection';
+import { PaymentMethods } from '../components/payment-methods/payment-methods';
+import { Welcome } from '../components/welcome/welcome'
+import { OrderSteps } from '../metadata/order-steps';
+import { createCustomerInfoStorage } from '../helpers/customer-info-storage';
 
 export default function Home() {
   const [ currentStep, setCurrentStep ] = useState(OrderSteps.welcome);
@@ -16,10 +17,19 @@ export default function Home() {
   const [ customerInfo, setCustomerInfo ] = useState(null);
   const [ paymenMethod, setPaymentMethod ] = useState('');
   const [ cardType, setCardType ] = useState('');
+  const customerInfoStorage = createCustomerInfoStorage();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [currentStep]);
+
+  useEffect(() => {
+    const customer = customerInfoStorage.getFromCache();
+
+    if (customer) {
+      setCustomerInfo(customer);
+    }
+  }, []);
 
   return (
     <div className={styles.app}>

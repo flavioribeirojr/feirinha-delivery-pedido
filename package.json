@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && node gh-pages.publish.js"
   },
   "dependencies": {
     "@flasd/whatsapp-formatting": "^0.1.4",
@@ -19,5 +20,8 @@
     "react-dom": "17.0.2",
     "react-input-mask": "^3.0.0-alpha.2",
     "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
   }
 }
