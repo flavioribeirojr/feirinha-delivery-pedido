@@ -1,0 +1,104 @@
+.shipingNote {
+    font-size: 14px;
+    color: #f04646;
+    text-align: center;
+    font-style: italic;
+}
+
+.itemList {
+    margin-top: 10px;
+    margin-bottom: 400px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 0 15px;
+    height: 65px;
+    align-items: center;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.item > .itemInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.item > .itemInfo >.itemName {
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item > .itemInfo >.itemPrice {
+    color: rgb(29, 29, 29);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.item >.itemSelect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item >.itemSelect >.itemSelectButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d5d0d0;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.orderResume {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 5px 10px gray;
+    background-color: white;
+    z-index: 10;
+}
+
+.orderResume >.orderPriceInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.orderResume >.orderPriceInfo >.orderPriceLabel {
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.orderResume >.orderPriceInfo >.orderPriceValue {
+    color: rgb(96, 96, 96);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.confirmOrder {
+    width: 100%;
+    padding: 10px;
+    background-color: #27b8ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.confirmOrder.disabled {
+    background-color: gray;
+    opacity: 0.5;
+}

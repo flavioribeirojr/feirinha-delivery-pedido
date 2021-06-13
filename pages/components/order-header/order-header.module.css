@@ -1,0 +1,27 @@
+.orderHeader {
+    padding: 15px 0;
+}
+
+.orderHeader > .orderHeaderNumber {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #27b8ff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderHeader >.orderHeaderNumber >.orderHeaderNumberText {
+    color: #27b8ff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.orderHeader >.orderHeaderTitle {
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+.orderResume {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 5px 10px gray;
+    background-color: white;
+    z-index: 10;
+}
+
+.orderResume >.orderPriceInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.orderResume >.orderPriceInfo >.orderPriceLabel {
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.orderResume >.orderPriceInfo >.orderPriceValue {
+    color: rgb(96, 96, 96);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.orderResume > .confirmOrder {
+    width: 100%;
+    padding: 10px;
+    background-color: #27b8ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.orderResume > .confirmOrder.disabled {
+    background-color: gray;
+    opacity: 0.5;
+}

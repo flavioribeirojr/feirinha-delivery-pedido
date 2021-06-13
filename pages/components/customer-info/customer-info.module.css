@@ -1,0 +1,16 @@
+.customerForm {
+    padding: 0 20px;
+    padding-bottom: 30px;
+}
+
+.customerForm >.submitButton {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27b8ff;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}

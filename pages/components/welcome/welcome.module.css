@@ -1,0 +1,25 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.welcome > .title {
+    color: rgb(29, 29, 29);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.welcome > .startButton {
+    background-color: #0eee5b;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+}

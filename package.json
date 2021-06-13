@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@flasd/whatsapp-formatting": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "formik": "^2.2.9",
     "next": "10.2.3",
+    "pretty-checkbox": "^3.0.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "yup": "^0.32.9"
   }
 }

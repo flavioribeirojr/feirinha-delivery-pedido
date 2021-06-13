@@ -1,0 +1,54 @@
+.paymentMethods {
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.checkbox {
+    margin-bottom: 25px;
+    display: block;
+}
+
+.paymentMethods .checkboxState {
+    font-size: 1em;
+}
+
+.selectTitle {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.paymentTypeCheckbox {
+    margin-top: 40px;
+    display: block;
+}
+
+.paymentTypeCheckbox label {
+    display: flex!important;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.paymentTypeCheckbox label p {
+    text-indent: 50px;
+    font-size: 15px;
+}
+
+.cardTypeImage {
+    object-fit: contain;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #27b8ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 35px;
+}
