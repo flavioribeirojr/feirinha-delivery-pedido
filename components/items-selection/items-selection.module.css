@@ -12,9 +12,9 @@
 
 .item {
     display: grid;
-    grid-template-columns: 70% 30%;
-    padding: 0 15px;
-    height: 65px;
+    grid-template-columns: 75% 25%;
+    padding: 10px 15px;
+    min-height: 65px;
     align-items: center;
     border-top: 1px solid #e2e2e2;
     border-bottom: 1px solid #e2e2e2;
@@ -35,6 +35,18 @@
     color: rgb(29, 29, 29);
     font-size: 14px;
     font-weight: 800;
+}
+
+.item > .itemInfo > .itemTotal {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 6px;
+    width: 90px;
+    background: #3fd77a;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
 
 .item >.itemSelect {

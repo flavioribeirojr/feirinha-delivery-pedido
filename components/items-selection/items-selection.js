@@ -4,6 +4,7 @@ import { items } from '../../data/items'
 import { OrderSteps } from '../../metadata/order-steps';
 import { useEffect } from 'react';
 import { OrderResume } from '../order-resume/order-resume';
+import { getFormattedItemQuantity } from '../../helpers/item-price-calculator';
 
 const MIN_ORDER_PRICE = 30;
 
@@ -13,8 +14,7 @@ export function ItemsSelection({
     setCurrentStep,
     subTotal,
     setSubTotal,
-    shippingPrice,
-    setShippingPrice
+    shippingPrice
 }) {
     useEffect(() => {
         calculateSubTotalAndShipping();
@@ -28,10 +28,6 @@ export function ItemsSelection({
         }, 0);
 
         setSubTotal(subTotal);
-
-        if (subTotal >= 100) {
-            setShippingPrice(0);
-        }
     }
 
     function getTotalSelected(item) {
@@ -41,7 +37,7 @@ export function ItemsSelection({
             return 0;
         }
 
-        return selectedItem.quantity;
+        return getFormattedItemQuantity(selectedItem);
     }
 
     function changeItemQuantity(item, quantityChangeStrategy) {
@@ -94,10 +90,6 @@ export function ItemsSelection({
                 * Pedido mínimo de R$ 30,00
             </p>
 
-            <p className={styles.shipingNote}>
-                ** Frete grátis em compras a partir de R$ 100,00
-            </p>
-
             <div className={styles.itemList}>
                 {
                     items
@@ -113,6 +105,10 @@ export function ItemsSelection({
                                     <p className={styles.itemPrice}>
                                         { Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.price) }
                                     </p>
+
+                                    <p className={styles.itemTotal}>
+                                        { getTotalSelected(item) }
+                                    </p>
                                 </div>
 
                                 <div className={styles.itemSelect}>
@@ -122,10 +118,6 @@ export function ItemsSelection({
                                     >
                                         -
                                     </button>
-
-                                    <p>
-                                        { getTotalSelected(item) }
-                                    </p>
 
                                     <button
                                         className={styles.itemSelectButton}

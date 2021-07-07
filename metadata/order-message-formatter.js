@@ -1,4 +1,5 @@
 import { PaymentMethodsLabels, CardTypesLabels, PaymentMethods } from '../components/payment-methods/payment-methods.constants';
+import { getFormattedItemQuantity } from '../helpers/item-price-calculator';
 
 export function formatOrder({
     customerInfo,
@@ -10,7 +11,7 @@ export function formatOrder({
 }) {
     const paymentIsCard = paymenMethod === PaymentMethods.debit || paymenMethod === PaymentMethods.credit;
     const selectedItemsRendered = selectedItems
-        .map(item => `⚫️ (${item.quantity}) ${item.item.name}  *${ Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(getItemTotal(item)) }*`)
+        .map(item => `⚫️ (${getFormattedItemQuantity(item)}) ${item.item.name}  *${ Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(getItemTotal(item)) }*`)
         .join('\n');
 
     return `

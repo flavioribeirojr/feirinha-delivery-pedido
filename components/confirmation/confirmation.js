@@ -1,6 +1,6 @@
 import { faMapMarkedAlt, faPhoneSquareAlt, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { calculateItemPrice, formatPrice } from '../../helpers/item-price-calculator';
+import { calculateItemPrice, formatPrice, getFormattedItemQuantity } from '../../helpers/item-price-calculator';
 import { formatOrder } from '../../metadata/order-message-formatter';
 import { OrderSteps } from '../../metadata/order-steps';
 import { OrderHeader } from "../order-header/order-header";
@@ -47,7 +47,7 @@ export function Confirmation({
                 {
                     selectedItems.map((item, idx) => (
                         <div key={`${item.item.id}-${idx}`} className={styles.confirmationItem}>
-                            <p className={styles.confirmationItemQuantity}>{ item.quantity }</p>
+                            <p className={styles.confirmationItemQuantity}>{ getFormattedItemQuantity(item) }</p>
                             <p className={styles.confirmationItemText}>{ item.item.name }</p>
                             <p className={styles.confirmationItemPrice}>{ formatPrice(calculateItemPrice(item)) }</p>
                         </div>

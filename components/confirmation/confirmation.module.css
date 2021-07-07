@@ -10,13 +10,13 @@
 
 .confirmationItem {
     display: grid;
-    grid-template-columns: 10% 65% 25%;
+    grid-template-columns: 20% 55% 25%;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .confirmationItemQuantity {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
 }
 
