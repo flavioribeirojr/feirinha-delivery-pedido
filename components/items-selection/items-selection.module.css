@@ -42,11 +42,16 @@
     margin-top: 10px;
     padding: 6px;
     width: 90px;
-    background: #3fd77a;
+    background: gray;
     text-align: center;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.item > .itemInfo > .itemTotal.itemTotalActive {
+    background: #3fd77a;
+    color: white;
 }
 
 .item >.itemSelect {

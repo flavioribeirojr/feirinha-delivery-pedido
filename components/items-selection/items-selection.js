@@ -93,41 +93,45 @@ export function ItemsSelection({
             <div className={styles.itemList}>
                 {
                     items
-                        .map(item => (
-                            <div
-                                key={`item-${item.id}`}
-                                className={styles.item}
-                            >
-                                <div className={styles.itemInfo}>
-                                    <p className={styles.itemName}>
-                                        { item.name }
-                                    </p>
-                                    <p className={styles.itemPrice}>
-                                        { Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.price) }
-                                    </p>
+                        .map(item => {
+                            const totalSelected = getTotalSelected(item);
 
-                                    <p className={styles.itemTotal}>
-                                        { getTotalSelected(item) }
-                                    </p>
+                            return (
+                                <div
+                                    key={`item-${item.id}`}
+                                    className={styles.item}
+                                >
+                                    <div className={styles.itemInfo}>
+                                        <p className={styles.itemName}>
+                                            { item.name }
+                                        </p>
+                                        <p className={styles.itemPrice}>
+                                            { Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.price) }
+                                        </p>
+
+                                        <p className={`${styles.itemTotal} ${ totalSelected === 0 ? '' : styles.itemTotalActive }`}>
+                                            { totalSelected }
+                                        </p>
+                                    </div>
+
+                                    <div className={styles.itemSelect}>
+                                        <button
+                                            className={styles.itemSelectButton}
+                                            onClick={() => subtractItemQuantity(item)}
+                                        >
+                                            -
+                                        </button>
+
+                                        <button
+                                            className={styles.itemSelectButton}
+                                            onClick={() => addItemQuantity(item)}
+                                        >
+                                            +
+                                        </button>
+                                    </div>
                                 </div>
-
-                                <div className={styles.itemSelect}>
-                                    <button
-                                        className={styles.itemSelectButton}
-                                        onClick={() => subtractItemQuantity(item)}
-                                    >
-                                        -
-                                    </button>
-
-                                    <button
-                                        className={styles.itemSelectButton}
-                                        onClick={() => addItemQuantity(item)}
-                                    >
-                                        +
-                                    </button>
-                                </div>
-                            </div>
-                        ))
+                            );
+                        })
                 }
             </div>
 
