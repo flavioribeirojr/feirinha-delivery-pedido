@@ -18,7 +18,7 @@ export function Welcome({ setCurrentStep }) {
                 * Pedidos realizados até quinta-feira, às 22:00h
             </p>
             <p className={styles.note}>
-                * Entregas toda sexta-feira
+                * Entregas toda sexta-feira a partir das 12:00h
             </p>
 
             <p className={styles.footerNote}>
