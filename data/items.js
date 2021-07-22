@@ -2,475 +2,475 @@ export const items = [
     {
         "id": 1,
         "name": "Abacate (unidade)",
-        "price": 9.75,
-        "type": "Und"
+        "type": "Kg",
+        "price": 8.71
     },
     {
         "id": 2,
         "name": "Abacaxi Pérola (unidade)",
-        "price": 10.13,
-        "type": "Und"
+        "type": "Kg",
+        "price": 10.13
     },
     {
         "id": 3,
         "name": "Abacaxi Turiaçu (unidade)",
-        "price": 14.38,
-        "type": "Und"
+        "type": "kg",
+        "price": 14.38
     },
     {
         "id": 4,
         "name": "Abóbora Leite (Fatia)",
-        "price": 3.14,
-        "type": "Und"
+        "type": "kg",
+        "price": 2.73
     },
     {
         "id": 5,
         "name": "Abobrinha (unidade)",
-        "price": 2.5,
-        "type": "Und"
+        "type": "kg",
+        "price": 2.3
     },
     {
         "id": 6,
         "name": "Acelga (unidade)",
-        "price": 3.71,
-        "type": "Und"
+        "type": "kg",
+        "price": 2.96
     },
     {
         "id": 7,
         "name": "Agrião (unidade)",
-        "price": 4.43,
-        "type": "Und"
+        "type": "Und",
+        "price": 3.75
     },
     {
         "id": 8,
         "name": "Alecrim (unidade)",
-        "price": 7.43,
-        "type": "Und"
+        "type": "Und",
+        "price": 6.3
     },
     {
         "id": 9,
         "name": "Alface Crespa (unidade)",
-        "price": 2.97,
-        "type": "Und"
+        "type": "Und",
+        "price": 2.52
     },
     {
         "id": 10,
         "name": "Alface Manteiga (unidade)",
-        "price": 4.35,
-        "type": "Und"
+        "type": "Und",
+        "price": 3.75
     },
     {
         "id": 11,
         "name": "Alface Roxa (unidade)",
-        "price": 4.43,
-        "type": "Und"
+        "type": "Und",
+        "price": 3.3
     },
     {
         "id": 12,
         "name": "Alface Americana (unidade)",
-        "price": 5.1,
-        "type": "Und"
+        "type": "Und",
+        "price": 4.49
     },
     {
         "id": 13,
         "name": "Alho Poró (unidade)",
-        "price": 3.69,
-        "type": "Und"
+        "type": "kg",
+        "price": 3.49
     },
     {
         "id": 14,
         "name": "Alho (cabeça)",
-        "price": 1.95,
-        "type": "Und"
+        "type": "kg",
+        "price": 1.87
     },
     {
         "id": 15,
         "name": "Almeirão (unidade)",
-        "price": 3.75,
-        "type": "Und"
+        "type": "Und",
+        "price": 2.99
     },
     {
         "id": 16,
         "name": "Banana (dúzia)",
-        "price": 8.78,
-        "type": "Und"
+        "type": "kg",
+        "price": 8.33
     },
     {
         "id": 17,
         "name": "Batata Doce (unidade)",
-        "price": 1.33,
-        "type": "Und"
+        "type": "kg",
+        "price": 1.33
     },
     {
         "id": 18,
         "name": "Batata Inglesa (unidade)",
-        "price": 0.66,
-        "type": "Und"
+        "type": "kg",
+        "price": "0,61"
     },
     {
         "id": 19,
         "name": "Berinjela Japonesa (unidade)",
-        "price": 0.74,
-        "type": "Und"
+        "type": "kg",
+        "price": 0.74
     },
     {
         "id": 20,
         "name": "Berinjela (unidade)",
-        "price": 2.07,
-        "type": "Und"
+        "type": "kg",
+        "price": 2.09
     },
     {
         "id": 21,
-        "name": "Beterraba com folha (unidade)",
-        "price": 1.34,
-        "type": "Und"
+        "name": "Beterraba (unidade)",
+        "type": "kg",
+        "price": 1.28
     },
     {
         "id": 22,
         "name": "Brócolis (unidade)",
-        "price": 8.93,
-        "type": "Und"
+        "type": "und",
+        "price": 7.43
     },
     {
         "id": 23,
         "name": "Caqui Importado (unidade)",
-        "price": 2.92,
-        "type": "Und"
+        "type": "kg",
+        "price": 4.01
     },
     {
         "id": 24,
         "name": "Cebola Branca (unidade)",
-        "price": 0.56,
-        "type": "Und"
+        "type": "kg",
+        "price": 0.49
     },
     {
         "id": 25,
         "name": "Cebola Roxa (unidade)",
-        "price": 0.93,
-        "type": "Und"
+        "type": "kg",
+        "price": 0.76
     },
     {
         "id": 26,
         "name": "Cebolinha (unidade)",
-        "price": 2.18,
-        "type": "Und"
+        "type": "Und",
+        "price": 1.95
     },
     {
         "id": 27,
-        "name": "Cenoura com folha (unidade)",
-        "price": 1.63,
-        "type": "Und"
+        "name": "Cenoura (unidade)",
+        "type": "Kg",
+        "price": 1.57
     },
     {
         "id": 28,
         "name": "Cheiro Verde (unidade)",
-        "price": 1.65,
-        "type": "Und"
+        "type": "Und",
+        "price": 1.49
     },
     {
         "id": 29,
         "name": "Chicória (unidade)",
-        "price": 2.85,
-        "type": "Und"
+        "type": "Und",
+        "price": 2.55
     },
     {
         "id": 30,
         "name": "Chuchu (unidade)",
-        "price": 1.46,
-        "type": "Und"
+        "type": "Kg",
+        "price": 0.69
     },
     {
         "id": 31,
         "name": "Coco Seco (unidade)",
-        "price": 10.43,
-        "type": "Und"
+        "type": "Und",
+        "price": 4.95
     },
     {
         "id": 32,
         "name": "Coentro (unidade)",
-        "price": 2.18,
-        "type": "Und"
+        "type": "Und",
+        "price": 1.95
     },
     {
         "id": 33,
-        "name": "Couve Flor (unidade)",
-        "price": 7.79,
-        "type": "Und"
+        "name": "Couve Folha",
+        "type": "Und",
+        "price": 1.8
     },
     {
         "id": 34,
-        "name": "Espinafre (unidade)",
-        "price": 3.98,
-        "type": "Und"
+        "name": "Couve Flor (unidade)",
+        "type": "Kg",
+        "price": 6.87
     },
     {
         "id": 35,
-        "name": "Fava (pacote 725g)",
-        "price": 16.26,
-        "type": "Und"
+        "name": "Espinafre (unidade)",
+        "type": "Und",
+        "price": 3.45
     },
     {
         "id": 36,
-        "name": "Feijão Vagem (pacote 500g)",
-        "price": 5.63,
-        "type": "Und"
+        "name": "Fava (pacote 725g)",
+        "type": "Kg",
+        "price": 15.33
     },
     {
         "id": 37,
-        "name": "Gengibre (unidade)",
-        "price": 2.33,
-        "type": "Und"
+        "name": "Feijão Vagem (pacote 500g)",
+        "type": "Kg",
+        "price": 4.73
     },
     {
         "id": 38,
-        "name": "Goiaba (unidade)",
-        "price": 2.39,
-        "type": "Und"
+        "name": "Gengibre (unidade)",
+        "type": "Kg",
+        "price": 2.09
     },
     {
         "id": 39,
-        "name": "Hortelã (unidade)",
-        "price": 2.25,
-        "type": "Und"
+        "name": "Goiaba (unidade)",
+        "type": "Kg",
+        "price": 2.28
     },
     {
         "id": 40,
-        "name": "Jiló (unidade)",
-        "price": 0.71,
-        "type": "Und"
+        "name": "Hortelã (unidade)",
+        "type": "Und",
+        "price": 2.1
     },
     {
         "id": 41,
-        "name": "Laranja (unidade)",
-        "price": 0.36,
-        "type": "Und"
+        "name": "Jiló (unidade)",
+        "type": "Kg",
+        "price": 0.4
     },
     {
         "id": 42,
-        "name": "Limão Siciliano (unidade)",
-        "price": 3.03,
-        "type": "Und"
+        "name": "Laranja (unidade)",
+        "type": "Kg",
+        "price": 0.35
     },
     {
         "id": 43,
-        "name": "Limão Thaiti (unidade)",
-        "price": 0.46,
-        "type": "Und"
+        "name": "Limão Siciliano (unidade)",
+        "type": "Kg",
+        "price": 2.93
     },
     {
         "id": 44,
-        "name": "Maçã (unidade)",
-        "price": 1.04,
-        "type": "Und"
+        "name": "Limão Thaiti (unidade)",
+        "type": "Kg",
+        "price": 0.45
     },
     {
         "id": 45,
-        "name": "Maçã Verde (unidade)",
-        "price": 5.7,
-        "type": "Und"
+        "name": "Maçã (unidade)",
+        "type": "Kg",
+        "price": 0.97
     },
     {
         "id": 46,
-        "name": "Macaxeira (unidade)",
-        "price": 2.48,
-        "type": "Und"
+        "name": "Maçã Verde (unidade)",
+        "type": "Kg",
+        "price": 5.7
     },
     {
         "id": 47,
-        "name": "Mamão Formosa (unidade)",
-        "price": 5.67,
-        "type": "Und"
+        "name": "Macaxeira (unidade)",
+        "type": "Kg",
+        "price": 2.21
     },
     {
         "id": 48,
-        "name": "Mamão Havai (unidade)",
-        "price": 4.44,
-        "type": "Und"
+        "name": "Mamão Formosa (unidade)",
+        "type": "Kg",
+        "price": 7.84
     },
     {
         "id": 49,
-        "name": "Manga Palmer (unidade)",
-        "price": 4.49,
-        "type": "Und"
+        "name": "Mamão Havai (unidade)",
+        "type": "Kg",
+        "price": 4.44
     },
     {
         "id": 50,
-        "name": "Manga Tommy (unidade)",
-        "price": 3.17,
-        "type": "Und"
+        "name": "Manga Palmer (unidade)",
+        "type": "Kg",
+        "price": 4.22
     },
     {
         "id": 51,
-        "name": "Manjericão (unidade)",
-        "price": 2.18,
-        "type": "Und"
+        "name": "Manga Tommy (unidade)",
+        "type": "Kg",
+        "price": 2.98
     },
     {
         "id": 52,
-        "name": "Maxixe (unidade)",
-        "price": 0.65,
-        "type": "Und"
+        "name": "Manjericão (unidade)",
+        "type": "Und",
+        "price": 1.95
     },
     {
         "id": 53,
-        "name": "Melancia (fatia)",
-        "price": 9.9,
-        "type": "Und"
+        "name": "Maxixe (unidade)",
+        "type": "Kg",
+        "price": 0.54
     },
     {
         "id": 54,
-        "name": "Melão Espanhol (unidade)",
-        "price": 6.75,
-        "type": "Und"
+        "name": "Melancia (fatia)",
+        "type": "Kg",
+        "price": 10.5
     },
     {
         "id": 55,
-        "name": "Melão Galia (unidade)",
-        "price": 14.31,
-        "type": "Und"
+        "name": "Melão Espanhol (unidade)",
+        "type": "Kg",
+        "price": 6.21
     },
     {
         "id": 56,
-        "name": "Milho Verde (unidade)",
-        "price": 1.8,
-        "type": "Und"
+        "name": "Melão Galia (unidade)",
+        "type": "Kg",
+        "price": 7.11
     },
     {
         "id": 57,
-        "name": "Morango (prato 250g)",
-        "price": 15,
-        "type": "Und"
+        "name": "Milho Verde (unidade)",
+        "type": "Und",
+        "price": 1.65
     },
     {
         "id": 58,
-        "name": "Nabo (unidade)",
-        "price": 2.94,
-        "type": "Und"
+        "name": "Morango (prato 250g)",
+        "type": "Und",
+        "price": 13.13
     },
     {
         "id": 59,
-        "name": "Orégano (unidade)",
-        "price": 4.43,
-        "type": "Und"
+        "name": "Nabo (unidade)",
+        "type": "Kg",
+        "price": 2.7
     },
     {
         "id": 60,
         "name": "Pepino (unidade)",
-        "price": 1.68,
-        "type": "Und"
+        "type": "Kg",
+        "price": 1.35
     },
     {
         "id": 61,
         "name": "Pêra Danju (unidade)",
-        "price": 4.46,
-        "type": "Und"
+        "type": "Kg",
+        "price": 4.31
     },
     {
         "id": 62,
         "name": "Pimenta de Cheiro (unidade)",
-        "price": 0.09,
-        "type": "Und"
+        "type": "Kg",
+        "price": 0.09
     },
     {
         "id": 63,
         "name": "Pimentão Amarelo (unidade)",
-        "price": 5.07,
-        "type": "Und"
+        "type": "Kg",
+        "price": 5.94
     },
     {
         "id": 64,
         "name": "Pimentão Verde (unidade)",
-        "price": 1.17,
-        "type": "Und"
+        "type": "Kg",
+        "price": 1.22
     },
     {
         "id": 65,
         "name": "Pimentão Vermelho (unidade)",
-        "price": 5.07,
-        "type": "Und"
+        "type": "Kg",
+        "price": 5.94
     },
     {
         "id": 66,
         "name": "Quiabo (unidade)",
-        "price": 0.33,
-        "type": "Und"
+        "type": "Kg",
+        "price": 0.27
     },
     {
         "id": 67,
         "name": "Rabanete (maço)",
-        "price": 1.66,
-        "type": "Und"
+        "type": "kg",
+        "price": 1.56
     },
     {
         "id": 68,
         "name": "Repolho Roxo (unidade)",
-        "price": 15.64,
-        "type": "Und"
+        "type": "Kg",
+        "price": 15.08
     },
     {
         "id": 69,
         "name": "Repolho Verde (unidade)",
-        "price": 12.6,
-        "type": "Und"
+        "type": "Kg",
+        "price": 11.03
     },
     {
         "id": 70,
         "name": "Rúcula (unidade)",
-        "price": 3.3,
-        "type": "Und"
+        "type": "Und",
+        "price": 3.45
     },
     {
         "id": 71,
         "name": "Salsa (unidade)",
-        "price": 2.24,
-        "type": "Und"
+        "type": "Und",
+        "price": 1.95
     },
     {
         "id": 72,
         "name": "Tanja Mexirica (unidade)",
-        "price": 0.53,
-        "type": "Und"
+        "type": "Kg",
+        "price": 0.45
     },
     {
         "id": 73,
         "name": "Tomate Cajá (unidade)",
-        "price": 1.13,
-        "type": "Und"
+        "type": "Kg",
+        "price": 1.21
     },
     {
         "id": 74,
         "name": "Tomate Cereja (pote)",
-        "price": 11.93,
-        "type": "Und"
+        "type": "Kg",
+        "price": 11.18
     },
     {
         "id": 75,
         "name": "Tomate L. Vida (unidade)",
-        "price": 1.26,
-        "type": "Und"
+        "type": "Kg",
+        "price": 1.35
     },
     {
         "id": 76,
         "name": "Tomilho (unidade)",
-        "price": 7.43,
-        "type": "Und"
+        "type": "Und",
+        "price": 5.99
     },
     {
         "id": 77,
         "name": "Uva Thompson (pote)",
-        "price": 14.4,
-        "type": "Und"
+        "type": "Kg",
+        "price": 14.18
     },
     {
         "id": 78,
         "name": "Uva Vitória (pote)",
-        "price": 11.93,
-        "type": "Und"
+        "type": "Kg",
+        "price": 11.93
     },
     {
         "id": 79,
         "name": "Vinagreira (unidade)",
-        "price": 3.3,
-        "type": "Und"
+        "type": "Und",
+        "price": 2.4
     }
 ]

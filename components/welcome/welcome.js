@@ -15,10 +15,10 @@ export function Welcome({ setCurrentStep }) {
             </button>
 
             <p className={styles.note} style={{ marginBottom: 5, marginTop: 15 }}>
-                * Pedidos realizados até quinta-feira, às 22:00h
+                * Pedidos realizados até domingo, às 22:00h
             </p>
             <p className={styles.note}>
-                * Entregas toda sexta-feira a partir das 12:00h
+                * Entregas toda segunda-feira
             </p>
 
             <p className={styles.footerNote}>
