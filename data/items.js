@@ -2,37 +2,37 @@ export const items = [
     {
         "id": 1,
         "name": "Abacate (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 8.71
     },
     {
         "id": 2,
         "name": "Abacaxi Pérola (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 10.13
     },
     {
         "id": 3,
         "name": "Abacaxi Turiaçu (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 14.38
     },
     {
         "id": 4,
         "name": "Abóbora Leite (Fatia)",
-        "type": "kg",
+        "type": "UND",
         "price": 2.73
     },
     {
         "id": 5,
         "name": "Abobrinha (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 2.3
     },
     {
         "id": 6,
         "name": "Acelga (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 2.96
     },
     {
@@ -74,13 +74,13 @@ export const items = [
     {
         "id": 13,
         "name": "Alho Poró (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 3.49
     },
     {
         "id": 14,
         "name": "Alho (cabeça)",
-        "type": "kg",
+        "type": "UND",
         "price": 1.87
     },
     {
@@ -92,37 +92,37 @@ export const items = [
     {
         "id": 16,
         "name": "Banana (dúzia)",
-        "type": "kg",
+        "type": "UND",
         "price": 8.33
     },
     {
         "id": 17,
         "name": "Batata Doce (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 1.33
     },
     {
         "id": 18,
         "name": "Batata Inglesa (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": "0,61"
     },
     {
         "id": 19,
         "name": "Berinjela Japonesa (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 0.74
     },
     {
         "id": 20,
         "name": "Berinjela (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 2.09
     },
     {
         "id": 21,
         "name": "Beterraba (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 1.28
     },
     {
@@ -134,19 +134,19 @@ export const items = [
     {
         "id": 23,
         "name": "Caqui Importado (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 4.01
     },
     {
         "id": 24,
         "name": "Cebola Branca (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 0.49
     },
     {
         "id": 25,
         "name": "Cebola Roxa (unidade)",
-        "type": "kg",
+        "type": "UND",
         "price": 0.76
     },
     {
@@ -158,7 +158,7 @@ export const items = [
     {
         "id": 27,
         "name": "Cenoura (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 1.57
     },
     {
@@ -176,7 +176,7 @@ export const items = [
     {
         "id": 30,
         "name": "Chuchu (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.69
     },
     {
@@ -200,7 +200,7 @@ export const items = [
     {
         "id": 34,
         "name": "Couve Flor (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 6.87
     },
     {
@@ -212,25 +212,25 @@ export const items = [
     {
         "id": 36,
         "name": "Fava (pacote 725g)",
-        "type": "Kg",
+        "type": "UND",
         "price": 15.33
     },
     {
         "id": 37,
         "name": "Feijão Vagem (pacote 500g)",
-        "type": "Kg",
+        "type": "UND",
         "price": 4.73
     },
     {
         "id": 38,
         "name": "Gengibre (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 2.09
     },
     {
         "id": 39,
         "name": "Goiaba (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 2.28
     },
     {
@@ -242,67 +242,67 @@ export const items = [
     {
         "id": 41,
         "name": "Jiló (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.4
     },
     {
         "id": 42,
         "name": "Laranja (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.35
     },
     {
         "id": 43,
         "name": "Limão Siciliano (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 2.93
     },
     {
         "id": 44,
         "name": "Limão Thaiti (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.45
     },
     {
         "id": 45,
         "name": "Maçã (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.97
     },
     {
         "id": 46,
         "name": "Maçã Verde (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 5.7
     },
     {
         "id": 47,
         "name": "Macaxeira (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 2.21
     },
     {
         "id": 48,
         "name": "Mamão Formosa (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 7.84
     },
     {
         "id": 49,
         "name": "Mamão Havai (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 4.44
     },
     {
         "id": 50,
         "name": "Manga Palmer (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 4.22
     },
     {
         "id": 51,
         "name": "Manga Tommy (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 2.98
     },
     {
@@ -314,25 +314,25 @@ export const items = [
     {
         "id": 53,
         "name": "Maxixe (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.54
     },
     {
         "id": 54,
         "name": "Melancia (fatia)",
-        "type": "Kg",
+        "type": "UND",
         "price": 10.5
     },
     {
         "id": 55,
         "name": "Melão Espanhol (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 6.21
     },
     {
         "id": 56,
         "name": "Melão Galia (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 7.11
     },
     {
@@ -350,67 +350,67 @@ export const items = [
     {
         "id": 59,
         "name": "Nabo (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 2.7
     },
     {
         "id": 60,
         "name": "Pepino (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 1.35
     },
     {
         "id": 61,
         "name": "Pêra Danju (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 4.31
     },
     {
         "id": 62,
         "name": "Pimenta de Cheiro (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.09
     },
     {
         "id": 63,
         "name": "Pimentão Amarelo (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 5.94
     },
     {
         "id": 64,
         "name": "Pimentão Verde (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 1.22
     },
     {
         "id": 65,
         "name": "Pimentão Vermelho (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 5.94
     },
     {
         "id": 66,
         "name": "Quiabo (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.27
     },
     {
         "id": 67,
         "name": "Rabanete (maço)",
-        "type": "kg",
+        "type": "UND",
         "price": 1.56
     },
     {
         "id": 68,
         "name": "Repolho Roxo (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 15.08
     },
     {
         "id": 69,
         "name": "Repolho Verde (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 11.03
     },
     {
@@ -428,25 +428,25 @@ export const items = [
     {
         "id": 72,
         "name": "Tanja Mexirica (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 0.45
     },
     {
         "id": 73,
         "name": "Tomate Cajá (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 1.21
     },
     {
         "id": 74,
         "name": "Tomate Cereja (pote)",
-        "type": "Kg",
+        "type": "UND",
         "price": 11.18
     },
     {
         "id": 75,
         "name": "Tomate L. Vida (unidade)",
-        "type": "Kg",
+        "type": "UND",
         "price": 1.35
     },
     {
@@ -458,13 +458,13 @@ export const items = [
     {
         "id": 77,
         "name": "Uva Thompson (pote)",
-        "type": "Kg",
+        "type": "UND",
         "price": 14.18
     },
     {
         "id": 78,
         "name": "Uva Vitória (pote)",
-        "type": "Kg",
+        "type": "UND",
         "price": 11.93
     },
     {
