@@ -105,7 +105,7 @@ export const items = [
         "id": 18,
         "name": "Batata Inglesa (unidade)",
         "type": "UND",
-        "price": "0,61"
+        "price": 0.61
     },
     {
         "id": 19,
